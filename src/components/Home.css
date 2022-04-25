@@ -1,0 +1,48 @@
+.n-wrapper{
+  height: 10vh;
+  display: flex;
+  justify-content:space-between;
+  margin-left:400px
+ 
+}
+
+.n-name{
+  font: 1.3rem;
+  font-weight: bold;
+}
+.n-right{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+ 
+  font-size:20px;
+
+}
+.n-list{
+  flex: 10;
+}
+.n-list>ul{
+  display: flex;
+  gap: 2rem;
+  margin-right:4rem ;
+}
+.n-list>ul>button{
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+}
+.n-button{
+  flex: 2;
+}
+.home{
+  margin-left:400px;
+}
+.welcome{
+  margin-left:400px
+}
+.stats{
+  margin-left:150px
+}
